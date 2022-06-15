@@ -1,7 +1,7 @@
 Type: Package
 Package: cleanTS
 Title: Testbench for Univariate Time Series Cleaning
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     c(person(given = "Mayur",
              family = "Shende",
@@ -33,13 +33,13 @@ Imports: anomalize, data.table, gganimate, ggplot2, ggtext, transformr,
         tibble, tibbletime
 Suggests: rmarkdown, gifski (>= 1.4.3), timetk
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.0
 NeedsCompilation: no
-Packaged: 2021-08-23 13:44:26 UTC; mayur
+Packaged: 2022-06-15 08:43:09 UTC; mayur
 Author: Mayur Shende [aut, cre] (<https://orcid.org/0000-0002-1738-2573>),
   Neeraj Bokde [aut] (<https://orcid.org/0000-0002-3493-9302>),
   Andrés E. Feijóo-Lorenzo [aut]
     (<https://orcid.org/0000-0003-3172-7037>)
 Maintainer: Mayur Shende <mayur.k.shende@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-08-26 19:00:02 UTC
+Date/Publication: 2022-06-15 09:20:19 UTC

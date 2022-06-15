@@ -22,7 +22,24 @@ A list containing:
 \code{animate_interval()} creates an animated plot using a \code{cleanTS} object
 and a interval.
 }
+\details{
+First, the data is split according to the \code{interval} argument passed to the
+function. If it is a numeric value, the cleaned data is split into dataframes
+containing \code{interval} observations. It can also be a string, like
+\strong{1 week}, \strong{3 months}, \strong{14 days}, etc. In this case, the data
+is split according to the \code{interval} given, using the timestamp column. Then
+an animation is created using the spliited data, with the help of \code{gganimate}
+package. The \code{animate_interval()} function returns a list containing
+the \code{gganim} object used to generate the animation and the number of
+states in the data. The animation can be generated using the
+\code{gen.animation()} function and saved using the \code{anim_save()}
+function. The plots in the animation also contain a short summary, containing
+the statistical information and the number of missing values, outliers,
+missing timestamps, and duplicate timestamps in the data shown in that frame
+of animation.
+}
 \examples{
+\dontrun{
 # Convert sunspots.month to dataframe
 data <- timetk::tk_tbl(sunspot.month)
 
@@ -36,6 +53,6 @@ cts <- cleanTS(data, date_format = "my", time = "index", value = "value")
 
 # Create a `gganim` using `animate_interval()` function
 a <- animate_interval(cts, "10 year")
-
+}
 
 }
