@@ -1,7 +1,7 @@
 Type: Package
 Package: cleanTS
 Title: Testbench for Univariate Time Series Cleaning
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: 
     c(person(given = "Mayur",
              family = "Shende",
@@ -28,18 +28,18 @@ Description: A reliable and efficient tool for cleaning univariate time
 License: GPL (>= 3)
 URL: https://github.com/Mayur1009/cleanTS
 BugReports: https://github.com/Mayur1009/cleanTS/issues
-Imports: anomalize, data.table, gganimate, ggplot2, ggtext, transformr,
-        glue, imputeTestbench, imputeTS, lubridate, shiny, stringr,
-        tibble, tibbletime
-Suggests: rmarkdown, gifski (>= 1.4.3), timetk
+Imports: data.table, gganimate, ggplot2, ggtext, transformr, glue,
+        imputeTestbench, imputeTS, lubridate, shiny, stringr, tibble
+Suggests: rmarkdown, gifski (>= 1.4.3), timetk, spelling
 Encoding: UTF-8
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.3
+Language: en-US
 NeedsCompilation: no
-Packaged: 2022-06-15 08:43:09 UTC; mayur
+Packaged: 2023-07-04 20:10:56 UTC; mayur
 Author: Mayur Shende [aut, cre] (<https://orcid.org/0000-0002-1738-2573>),
   Neeraj Bokde [aut] (<https://orcid.org/0000-0002-3493-9302>),
   Andrés E. Feijóo-Lorenzo [aut]
     (<https://orcid.org/0000-0003-3172-7037>)
 Maintainer: Mayur Shende <mayur.k.shende@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-06-15 09:20:19 UTC
+Date/Publication: 2023-07-06 07:33:10 UTC
